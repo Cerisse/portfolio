@@ -1,0 +1,23 @@
+.container-fluid {
+    flex-direction: row-reverse;
+}
+
+.navbar navbar-expand-lg bg-light {
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin-left: auto;
+    height: 25rem;
+}
+
+.btn {
+    margin-left: 5rem;
+}

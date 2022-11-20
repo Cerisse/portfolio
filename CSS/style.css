@@ -1,0 +1,45 @@
+    @import url(bootstrap.css);
+    .img {
+        height: 1em;
+    }
+    
+    .p1 {
+        margin-top: 5em;
+    }
+    
+    .p2 {
+        text-align: center;
+        animation: 2s linear 0s infinite alternate slider;
+    }
+    
+    .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img2 {
+        height: 20em;
+    }
+    
+    @keyframes slider {
+        from {
+            margin-left: -45%;
+        }
+        to {
+            margin-left: 40%;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        .img2 {
+            height: 35em;
+        }
+        .img {
+            height: 2em;
+        }
+        .btn {
+            margin-left: 40rem;
+            width: 10em;
+        }
+    }
